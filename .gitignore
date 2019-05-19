@@ -4,5 +4,16 @@
 # exclude data from source control by defaultls -la
 .idea
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 .git
 
+# exclude data from source control by default
+/data/
+!./data/raw/.gitkeep
+.idea
+
+.git
