@@ -7,6 +7,7 @@ fast:
 clean:
 	rm -f models/*.pickle
 	rm -f data/processed/*.pickle
+	rm -f transformers/*.pickle
 
 data/models/nb_model.pickle:
 	python src/data/preprocess.py data/raw data/processed transformers
